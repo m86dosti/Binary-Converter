@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    border-radius: 20px;  
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .convert-button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .binary-output {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: left;
+  }
