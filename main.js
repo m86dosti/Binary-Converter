@@ -4,7 +4,8 @@ function convertToBinary() {
     
     // Convert sentence to binary text
     let binary = '';
-    for (let i = 0; i < sentence.length; i++) {
+    for (let i = 0; i < sentence.length; i++)
+    {
       const charCode = sentence.charCodeAt(i);
       const binaryChar = charCode.toString(2);
       binary += binaryChar + ' ';
