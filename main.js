@@ -9,7 +9,6 @@ function convertToBinary() {
       const binaryChar = charCode.toString(2);
       binary += binaryChar + ' ';
     }
-    
     // Display binary code on the page
     const binaryOutput = document.getElementById('binary-output');
     binaryOutput.textContent = binary;
